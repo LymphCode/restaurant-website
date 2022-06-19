@@ -1,0 +1,55 @@
+/* RESETS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* GlOBAL CLASSES */
+
+.text-center {
+    text-align: center;
+}
+
+/* CUSTOM STYLES */
+
+.top-bar {
+    background-color: cornflowerblue;
+    padding: 15px;
+    position: relative;
+}
+
+.top-bar ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.top-bar ul li {
+    display: inline;
+    padding-left: 20px;
+}
+
+.top-bar ul li.first-link {
+    padding: 0;
+}
+
+.top-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.huge-div {
+    height: 1000px;
+}
+
+
+
+/* MEDIA QUERIES (responsive design)*/
+
+@media (max-width: 750px), (max-height: 500px) {
+    .top-bar ul li a {
+        font-size: 16px;
+    }
+}
+
