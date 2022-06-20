@@ -8,32 +8,32 @@
 
 .text-left {
     text-align: left;
+    color: white;
+    font-family: sans-serif;
 }
 
 .text-center {
     text-align: center;
+    color: white;
+    font-family: sans-serif;
 }
 
 /* CUSTOM STYLES */
 
 .top-bar {
-    background-color: cornflowerblue;
+    background-color: rgb(0, 106, 167);
     padding: 15px;
     position: relative;
 }
 
 .top-bar h1 {
-    text-decoration: none;
-    color: white;
-    font-family: sans-serif;
+
     font-size: 50px;
     padding-right: 20px;
 }
 
 .top-bar p {
-    text-decoration: none;
-    color: white;
-    font-family: sans-serif;
+
     font-size: 30px;
     padding-right: 20px;
 }
@@ -59,9 +59,38 @@
     font-size: 30px;
 }
 
-.huge-div {
-    height: 1000px;
+.top-bar ul li a:hover {
+    color: rgb(254,204,2);
 }
+
+body {
+    background-color: rgb(174, 202, 255);
+}
+
+h2 {
+
+    font-size: 20px;
+    padding: 20px;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    font-size: 15px;
+    padding: 20px;
+}
+
+
 
 
 
